@@ -1,0 +1,778 @@
+MASTER PROMPT: DeepFocus — Premium Android App Landing Page
+
+Bangladesh-Focused SEO, AI Search Optimization & Professional Conversion Website
+
+1. YOUR ROLE
+
+Act as a senior web developer, premium UI/UX designer, technical SEO specialist, AI Search Optimization expert, accessibility engineer, and conversion optimization specialist.
+
+Your task is to design, develop, test, and deliver a complete, production-ready landing website for DeepFocus, an Android productivity and focus application developed by Muhammed Omor.
+
+Do not deliver a simple template, incomplete mockup, wireframe, or generic promotional page. Build a polished, professional, mobile-first website that can be published and maintained from an Android phone.
+
+The primary target market is Bangladesh. Prioritize Bangladeshi users, Bangla search queries, English search queries used by people in Bangladesh, and relevant local search intent. Do not spend effort targeting every country globally.
+
+The website must help visitors understand DeepFocus, explore its actual features, trust the product, and visit the official purchase page.
+
+---
+
+2. OFFICIAL PROJECT INFORMATION
+
+Use the following information exactly as provided.
+
+- Product name: DeepFocus
+- Product category: Android productivity and focus app
+- Developer: Muhammed Omor
+- Primary target market: Bangladesh
+- Main website language: English
+- Secondary language: Bangla
+- Required design: Premium, minimalist, modern, professional
+- Main purchase destination:
+
+https://www.supportkori.com/muhammedomor/extras/deepfocus-app-ts3g
+
+Official application screenshots:
+
+1. Home screen:
+   https://pockethostbd.github.io/drive-one/picture/mockup-1.png
+
+2. Focus Lock screen:
+   https://pockethostbd.github.io/drive-one/picture/mockup-2.png
+
+3. Third application screen:
+   https://pockethostbd.github.io/drive-one/picture/mockup-3.png
+
+4. Settings screen:
+   https://pockethostbd.github.io/drive-one/picture/mockup-4.png
+
+Use these exact image URLs. Do not replace the screenshots with AI-generated illustrations, stock images, or unrelated phone mockups.
+
+Do not invent a new logo. If the official logo asset has not been provided, create a clean text-based DeepFocus wordmark without pretending it is the original logo.
+
+Never invent a Google Play Store listing, package ID, developer contact email, download endpoint, customer testimonial, app rating, number of downloads, or verified security certification.
+
+---
+
+3. CORE OBJECTIVES
+
+The completed website must accomplish the following:
+
+1. Present DeepFocus as a professional Android productivity application.
+2. Explain the real features using the official screenshots.
+3. Build trust through transparent product information and realistic claims.
+4. Direct interested users to the official SupportKori product page.
+5. Improve organic discoverability in Bangladesh.
+6. Make relevant information understandable to search engines and AI search systems.
+7. Provide a fast, responsive experience on Android phones and slower mobile connections.
+8. Require no paid database, backend, or external API to function as a static landing page.
+9. Remain easy to update and deploy from a mobile device.
+
+The website must be genuinely functional, not just visually impressive.
+
+---
+
+4. DESIGN SYSTEM
+
+Create a premium, modern, minimalist visual identity inspired by the provided DeepFocus application screenshots.
+
+Color palette
+
+Use these colors as the starting design system:
+
+- Deep navy: #0B1220
+- Primary blue: #2563EB
+- Electric blue accent: #60A5FA
+- White: #FFFFFF
+- Soft background: #F5F8FC
+- Primary text: #111827
+- Secondary text: #64748B
+- Focus Lock green accent: #22C55E
+
+Use green sparingly for Focus Lock-related elements. Do not make the entire website excessively colorful.
+
+Visual direction
+
+- Premium software-product landing page
+- Clean typography and generous spacing
+- Strong visual hierarchy
+- Subtle gradients only where appropriate
+- Soft borders and restrained shadows
+- Carefully designed buttons and cards
+- Small, purposeful transitions
+- No excessive animation
+- No unnecessary glowing effects
+- No cluttered dashboard-style layout
+- No fake statistics or decorative elements that distract from the product
+
+Use a system font stack to avoid unnecessary external font downloads.
+
+Responsive behavior
+
+The website must be designed mobile-first and work correctly on:
+
+- Android phones
+- Small-screen devices
+- Tablets
+- Laptops
+- Desktop monitors
+
+Use responsive CSS, flexible image sizing, proper spacing, and accessible touch targets.
+
+---
+
+5. REQUIRED WEBSITE SECTIONS
+
+A. Header and navigation
+
+Create a compact premium navigation bar with:
+
+- DeepFocus text wordmark
+- Home
+- Features
+- Screenshots
+- FAQ
+- Language switcher: EN / বাংলা
+- Buy Now button
+
+On mobile, use a properly working navigation menu with keyboard accessibility and touch-friendly controls.
+
+The navigation must never overflow horizontally.
+
+B. Hero section
+
+Create an outstanding first-screen experience.
+
+Include:
+
+- A concise product headline
+- A clear description of DeepFocus
+- A primary “Get DeepFocus” or “Buy DeepFocus” button
+- A secondary “Explore Features” button
+- A prominent visual using the actual first screenshot
+- A small Bangladesh-relevant product descriptor where natural
+
+Suggested English headline:
+
+“Take Control of Your Focus. Build Better Habits.”
+
+Suggested English description:
+
+“Discover DeepFocus, an Android productivity app designed to help you create focused sessions, build better study habits, and manage distractions.”
+
+Suggested Bangla headline:
+
+“মনোযোগ ধরে রাখুন, গড়ে তুলুন ভালো অভ্যাস।”
+
+Suggested Bangla description:
+
+“DeepFocus-এর সাহায্যে ফোকাস সেশন পরিচালনা করুন, পড়াশোনার অভ্যাস গড়ুন এবং ডিজিটাল বিভ্রান্তি নিয়ন্ত্রণে আরও সচেতন হোন।”
+
+Only retain statements supported by the actual app.
+
+The primary CTA must open the official SupportKori purchase page.
+
+Use a real link with an appropriate accessible label. For external navigation, use safe link attributes where applicable.
+
+Do not create a fake checkout system.
+
+C. Trust and product summary
+
+Add a compact section that explains what DeepFocus is, who it is for, and how it may help.
+
+Potential audiences:
+
+- Students in Bangladesh
+- University admission candidates
+- University students
+- Professionals who need focused work sessions
+- People trying to develop healthier phone-use habits
+
+Present these as intended audiences, not as proven customer demographics.
+
+Do not invent user counts, ratings, awards, testimonials, or performance statistics.
+
+D. Feature overview
+
+Build an attractive feature grid.
+
+Use the following possible categories, but verify the screenshots and available product information before claiming implementation:
+
+1. Focus Lock
+2. Focus session timer
+3. Allowed Apps During Focus
+4. Daily Habits
+5. Quick Access
+6. Launcher Configuration
+7. Strict Settings Blocker
+8. Android configuration and control settings
+
+For every confirmed feature, provide:
+
+- A concise title
+- A plain-language explanation
+- A clear user benefit
+- An appropriate icon or screenshot where useful
+
+If a feature cannot be verified, do not represent it as implemented.
+
+Do not claim that DeepFocus can completely prevent every possible bypass, survive every restart, block every Android setting, or guarantee uninterrupted focus.
+
+Explain technical limitations accurately.
+
+E. Screenshot gallery
+
+Create a dedicated screenshot section with all four official image URLs.
+
+Use each image for its corresponding actual screen.
+
+Requirements:
+
+- Preserve image aspect ratios.
+- Do not crop important interface content.
+- Provide descriptive alt text.
+- Use responsive image sizing.
+- Allow users to enlarge or view screenshots where appropriate.
+- Do not place screenshots inside fake phone frames that obscure the original interface.
+- Use lazy loading for below-the-fold screenshots.
+- Set image dimensions or aspect ratios to reduce layout shifts.
+
+Verify mockup-3's actual contents before assigning its heading or description.
+
+F. How it works
+
+Create a simple step-by-step section explaining how a visitor can:
+
+1. Learn about the application.
+2. Review its supported features and compatibility.
+3. Open the official purchase page.
+4. Follow the official acquisition and installation instructions.
+
+Do not invent an installation procedure or download URL. Use only instructions confirmed by the product owner.
+
+G. Bangladesh-focused section
+
+Add a natural, helpful section explaining why DeepFocus may be useful for people studying or working in Bangladesh.
+
+Include relevant phrases naturally, such as:
+
+- Focus app for Android in Bangladesh
+- Study focus app
+- Productivity app for students
+- মনোযোগ বাড়ানোর অ্যাপ
+- পড়াশোনার ফোকাস অ্যাপ
+- মোবাইলের বিভ্রান্তি নিয়ন্ত্রণ
+- শিক্ষার্থীদের প্রোডাক্টিভিটি অ্যাপ
+
+Do not repeat keywords unnaturally.
+
+Do not claim that DeepFocus is the best app in Bangladesh unless supported by credible comparative evidence.
+
+Do not create separate low-quality pages for individual Bangladeshi cities or districts.
+
+H. Compatibility and requirements
+
+Create a clear compatibility section.
+
+Show only verified details, including:
+
+- Supported Android versions
+- Required permissions
+- Accessibility or special access requirements, if applicable
+- Battery optimization considerations, if relevant
+- Known limitations
+- Any required setup steps
+
+If these details are unknown, mark them as information requiring confirmation rather than inventing answers.
+
+I. Privacy and trust
+
+Create a privacy summary based on the application's actual behavior.
+
+Explain only verified facts about:
+
+- Data collection
+- Local storage
+- Network communication
+- Required Android permissions
+- Third-party services
+- User privacy
+
+Do not describe the app as “100% secure,” “completely private,” or “zero data collection” without technical evidence.
+
+If a formal privacy policy is required, create a clearly identified draft that must be checked against the real app before publication.
+
+Do not imply that the landing-page developer has independently audited the Android application's security.
+
+J. FAQ section
+
+Create an accessible, functional accordion with useful questions in English and Bangla.
+
+Suggested questions:
+
+1. What is DeepFocus?
+2. Who should use DeepFocus?
+3. Is DeepFocus available for Android?
+4. How does Focus Lock work?
+5. Can I use selected apps during a focus session?
+6. Which Android versions are supported?
+7. What permissions does the application require?
+8. How do I purchase DeepFocus?
+9. How do I install the application?
+10. What should I do if a feature does not work?
+11. How can I contact the developer?
+12. Where can I find the privacy policy?
+
+Answer only what is known.
+
+For unknown answers, use a clear placeholder for the product owner to complete before launch.
+
+Do not invent a support email.
+
+Use accessible buttons, keyboard navigation, visible focus states, and appropriate expanded-state attributes.
+
+K. Final conversion section
+
+Add a polished final CTA.
+
+Suggested headline:
+
+“Make Your Next Focus Session Count.”
+
+Suggested Bangla headline:
+
+“এবার মনোযোগ দিয়ে কাজ শুরু করুন।”
+
+Include a short, honest explanation and a prominent button linking to the official SupportKori page.
+
+Do not invent discounts, countdown timers, limited-time offers, or fake scarcity.
+
+L. Footer
+
+Include:
+
+- DeepFocus wordmark
+- Short product description
+- Navigation links
+- Features
+- FAQ
+- Privacy policy, when available
+- SupportKori purchase link
+- Developer attribution: Muhammed Omor
+- Copyright year generated appropriately
+
+Do not add fabricated social media accounts or contact information.
+
+---
+
+6. BANGLADESH-FOCUSED SEO
+
+Implement a complete on-page and technical SEO foundation.
+
+The primary audience is Bangladesh. The goal is relevant search visibility, not indiscriminate worldwide keyword targeting.
+
+Metadata
+
+Create a unique title and meta description for the main page.
+
+Suggested title:
+
+“DeepFocus – Focus & Study Productivity App in Bangladesh”
+
+Suggested description:
+
+“Discover DeepFocus, an Android focus and productivity app for study sessions, habit building, and distraction management. Explore features and purchase options.”
+
+Adjust the final description to match the actual product.
+
+Use:
+
+- A single clear primary H1
+- Logical H2 and H3 headings
+- A meaningful page title
+- A unique meta description
+- A self-referencing canonical URL once the production URL is known
+- A valid HTML language attribute
+- Correct character encoding
+- Mobile viewport metadata
+- Descriptive image alt text
+- Meaningful internal links
+- Open Graph metadata
+- Appropriate social-sharing preview metadata
+
+Do not invent the production domain.
+
+Make the canonical URL and social preview URL easy to configure after deployment.
+
+Bangla and English SEO
+
+Support both Bangla and English content.
+
+Use a language switcher that changes the actual visible content, not just the language label.
+
+Keep the selected language consistent across sections.
+
+If separate language URLs are implemented, use appropriate language-specific URLs and reciprocal hreflang annotations only when both versions are complete, indexable, and genuinely equivalent.
+
+Do not create fake translated pages or automatic redirects that prevent search crawlers from accessing content.
+
+Target search intent relevant to users in Bangladesh.
+
+Do not stuff city names, country names, or repeated keywords into the page.
+
+Technical SEO files
+
+Create:
+
+- robots.txt
+- sitemap.xml
+- A configurable canonical URL
+- Appropriate metadata
+- Clean, crawlable HTML
+- A custom 404 page if the hosting setup supports it
+- A favicon only when an appropriate asset is available or can be created without misrepresenting the official brand
+
+The sitemap must contain only real, canonical, publicly accessible production URLs.
+
+Do not include placeholder domains in the final production sitemap.
+
+Do not block essential CSS, JavaScript, or images from search crawlers.
+
+Do not add a sitemap URL for a page that does not exist.
+
+Structured data
+
+Implement only accurate, appropriate Schema.org structured data.
+
+Potential types:
+
+- WebSite
+- WebPage
+- Organization or Person, depending on the actual publisher
+- SoftwareApplication, if its properties can be verified
+
+Include an actual application name, supported operating system, accurate application category, and legitimate offer information only when available.
+
+Do not invent ratings, reviews, review counts, aggregate ratings, package identifiers, prices, or availability.
+
+The SupportKori purchase price may be included only after it is verified and the offer accurately reflects the landing page's relationship to the product.
+
+Do not expect structured data alone to guarantee enhanced search results.
+
+Validate the finished structured data using Google's supported testing tools.
+
+---
+
+7. AI SEARCH OPTIMIZATION
+
+Optimize the site so search engines and AI-powered search systems can understand and accurately summarize the product.
+
+This includes relevant systems such as Google AI search experiences, Bing and Copilot, ChatGPT Search, and other AI search products when their crawling and indexing policies permit access.
+
+Requirements:
+
+1. Present a clear, factual definition of DeepFocus near the top of the page.
+2. Explain the actual features in concise, self-contained sections.
+3. Make compatibility, permissions, pricing and purchase information easy to find.
+4. Write direct FAQ answers without unsupported claims.
+5. Use semantic HTML and descriptive headings.
+6. Keep important content available in crawlable HTML rather than only inside images or inaccessible JavaScript.
+7. Ensure the website is accessible without login.
+8. Ensure robots.txt does not accidentally block essential search crawlers.
+9. Document how to verify relevant crawler access.
+10. Keep claims consistent across the website and the official product listing.
+11. Encourage genuine mentions and references from relevant educational, productivity, and technology websites.
+12. Do not use automated spam backlinks or mass-generated low-quality articles.
+
+Do not claim that any AI system is guaranteed to recommend DeepFocus.
+
+Do not create fake citations, fake expert endorsements, fake comparisons, or fake user testimonials.
+
+Crawler configuration
+
+Check current official documentation before adding crawler-specific rules.
+
+If appropriate, document how to verify access for:
+
+- Googlebot
+- Bingbot
+- OAI-SearchBot
+
+Do not unnecessarily block crawlers.
+
+Do not confuse search indexing crawlers with AI training crawlers. Follow each provider's current published controls and requirements.
+
+Do not assume that allowing a crawler guarantees indexing, citation, or recommendation.
+
+---
+
+8. PERFORMANCE AND CORE WEB VITALS
+
+Optimize for affordable Android phones and mobile networks in Bangladesh.
+
+Requirements:
+
+- Minimize JavaScript.
+- Avoid large dependencies.
+- Avoid autoplaying video.
+- Avoid heavy animation libraries.
+- Optimize layout stability.
+- Use appropriately sized images.
+- Lazy-load noncritical images.
+- Avoid render-blocking resources where possible.
+- Use system fonts.
+- Ensure the page remains usable if an optional external resource fails.
+- Use semantic, lightweight HTML and CSS.
+- Keep interactions responsive.
+- Avoid layout shifts and horizontal scrolling.
+- Make all essential information available even if analytics or other optional scripts fail.
+
+Use the current Core Web Vitals guidance as the target.
+
+Aim for:
+
+- Largest Contentful Paint: 2.5 seconds or less
+- Interaction to Next Paint: 200 milliseconds or less
+- Cumulative Layout Shift: 0.1 or less
+
+These are performance targets, not guaranteed outcomes. Validate using actual testing tools and, where available, real-user data.
+
+---
+
+9. ACCESSIBILITY AND USABILITY
+
+Follow good WCAG accessibility practices.
+
+Include:
+
+- Keyboard-accessible navigation
+- Visible keyboard focus
+- Appropriate contrast
+- Descriptive link labels
+- Accessible buttons
+- Meaningful alt text
+- Proper heading hierarchy
+- Reduced-motion support
+- Accessible FAQ accordion behavior
+- Touch-friendly mobile controls
+- Correct language attributes
+- No essential information conveyed through color alone
+
+Test the website at narrow mobile widths.
+
+Ensure the purchase button remains visible and usable without obstructing content.
+
+---
+
+10. TECHNOLOGY AND PROJECT STRUCTURE
+
+Prefer a lightweight static website suitable for GitHub Pages and Vercel.
+
+Use:
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+Avoid requiring a backend or paid database.
+
+Do not introduce React, Next.js, a build pipeline, or additional dependencies unless they provide a clear benefit and are justified by the actual deployment requirements.
+
+Do not use Tailwind CDN, Font Awesome CDN, Google Fonts CDN, external JavaScript libraries, or unnecessary third-party scripts.
+
+Do not add a service worker or PWA caching behavior unless it is correctly implemented, necessary, and tested.
+
+Recommended project structure:
+
+deepfocus-landing/
+├── index.html
+├── features.html
+├── faq.html
+├── privacy.html
+├── 404.html
+├── robots.txt
+├── sitemap.xml
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+├── README.md
+└── DEPLOYMENT.md
+
+This structure may be simplified if a single-page website is more suitable, but do not sacrifice SEO, accessibility, or usability.
+
+Do not create empty files merely to match the example structure.
+
+All file paths must be correct and case-sensitive.
+
+All internal links must work.
+
+Do not reference missing local assets.
+
+Use the provided screenshot URLs directly unless the project owner explicitly authorizes downloading and storing local copies.
+
+---
+
+11. FUNCTIONAL REQUIREMENTS
+
+Implement and test:
+
+- Working desktop navigation
+- Working mobile menu
+- Functional EN / বাংলা language switcher
+- Functional FAQ accordion
+- Working screenshot gallery interactions, if implemented
+- Correct external purchase links
+- Working internal navigation
+- Responsive image rendering
+- Correct active states
+- Accessible keyboard interactions
+- Graceful behavior when optional JavaScript is unavailable
+
+The website must not contain:
+
+- Fake login forms
+- Fake checkout forms
+- Fake download buttons
+- Broken links
+- Empty interaction controls
+- Fake reviews
+- Fake statistics
+- Unverified Google Play buttons
+- Fabricated support information
+- Misleading security guarantees
+
+Every visible button must have a meaningful, working action.
+
+---
+
+12. ANALYTICS AND PRIVACY
+
+Do not add tracking scripts by default.
+
+If analytics is requested later, use a privacy-conscious implementation and explain the relevant configuration and consent requirements.
+
+Never collect personal information through a form unless a genuine processing mechanism and appropriate privacy disclosures exist.
+
+Do not add a nonfunctional contact form.
+
+Use direct links only when they lead to verified destinations.
+
+---
+
+13. QUALITY ASSURANCE
+
+Before delivery, conduct a systematic audit.
+
+Check:
+
+1. All HTML files load correctly.
+2. CSS and JavaScript paths are correct.
+3. No essential feature is broken.
+4. All four provided screenshot URLs are used appropriately.
+5. Mobile layouts work without horizontal overflow.
+6. The language switcher updates all intended text.
+7. All purchase buttons open the correct SupportKori page.
+8. The metadata is accurate.
+9. Canonical URLs are configured correctly.
+10. The sitemap contains only real production URLs.
+11. robots.txt is valid.
+12. Structured data contains no invented facts.
+13. Images have appropriate alt text.
+14. FAQ interactions are accessible.
+15. No unnecessary external dependencies remain.
+16. No broken internal links exist.
+17. There are no obvious console errors.
+18. No placeholder text is accidentally published.
+19. The privacy page matches the actual data practices.
+20. The site can be deployed using the documented procedure.
+
+If browser-based testing is available, test the deployed result, not just the source code.
+
+Do not claim that testing passed unless it was actually performed.
+
+---
+
+14. DEPLOYMENT REQUIREMENTS
+
+Provide clear, beginner-friendly instructions for publishing the project using GitHub Pages and, where appropriate, Vercel.
+
+Explain:
+
+- Which files must be created
+- Where each file belongs
+- How to upload files from an Android phone
+- How to configure the production site URL
+- How to configure canonical URLs
+- How to update sitemap.xml
+- How to publish changes
+- How to verify the deployed website
+- How to connect Google Search Console
+- How to configure Bing Webmaster Tools
+- How to submit the sitemap
+- How to test crawler accessibility
+
+Do not assume that the developer has a computer.
+
+Avoid complicated terminal-only procedures when a reliable GitHub web-interface method exists.
+
+Clearly distinguish free features from paid services.
+
+Never ask the developer to expose passwords, access tokens, or secret keys in public source files.
+
+---
+
+15. REQUIRED DELIVERABLES
+
+Deliver the complete working project, not merely instructions.
+
+Include:
+
+1. All required source files.
+2. Fully implemented HTML, CSS and JavaScript.
+3. Both English and Bangla content.
+4. The four official screenshots integrated appropriately.
+5. SEO metadata and technical SEO files.
+6. Accurate structured data.
+7. A responsive mobile-first design.
+8. Accessible interactive components.
+9. A README with the project overview.
+10. A beginner-friendly deployment guide.
+11. A final QA checklist.
+12. A list of product facts that still require confirmation.
+13. A list of any features that could not be tested.
+
+If the environment supports creating downloadable project files, package the completed project into a ZIP file and provide its actual verified link.
+
+Do not provide a fabricated download link.
+
+If the environment cannot create files, output every required file in a clearly labeled, complete, copyable code block.
+
+Do not omit files by writing “same as above,” “implement similarly,” or “add the remaining code yourself.”
+
+Do not stop after generating the homepage.
+
+---
+
+16. EXECUTION RULES
+
+- Inspect the available product information and official screenshots before finalizing claims.
+- Do not invent unknown features.
+- Do not invent product specifications.
+- Do not invent contact details.
+- Do not fabricate search rankings or AI recommendations.
+- Do not promise first-page rankings.
+- Do not add global SEO work unrelated to the Bangladesh target audience.
+- Prioritize Bangladeshi search intent and a useful bilingual experience.
+- Keep the design premium, lightweight, clear and professional.
+- Preserve the supplied product name, developer attribution and purchase URL.
+- Use exact filenames and consistent naming.
+- Test all implemented interactions.
+- Deliver a finished, deployable result rather than a conceptual proposal.
+
+FINAL SUCCESS CRITERION
+
+The final product must be a professional, mobile-first DeepFocus landing website that accurately represents the Android application, provides a smooth purchasing journey through SupportKori, establishes a strong technical SEO foundation for Bangladesh, and makes the product information easy for relevant search engines and AI-powered search systems to understand.
+
+Build the complete project now. Do not respond with another plan or ask unnecessary questions. Use sensible defaults for nonessential decisions and clearly identify any essential product facts that require verification before publication.

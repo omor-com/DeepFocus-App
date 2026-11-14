@@ -1,0 +1,6 @@
+{
+  "name": "DeepFocus",
+  "description": "DeepFocus – Focus & Study Productivity App in Bangladesh. An Android productivity and focus app by Muhammed Omor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

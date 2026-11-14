@@ -1,0 +1,892 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeepFocus – Focus &amp; Study Productivity App in Bangladesh</title>
+    <meta
+      name="description"
+      content="Discover DeepFocus, an Android focus and productivity app by Muhammed Omor for study sessions, habit tracking, and distraction management in Bangladesh."
+    />
+    <meta name="author" content="Muhammed Omor" />
+    <meta name="theme-color" content="#0B1220" />
+
+    <!--
+      POST-DEPLOYMENT CONFIGURATION (Recommended):
+      Once your site is live on GitHub Pages or Vercel, replace https://YOUR-PRODUCTION-DOMAIN/
+      below with your real HTTPS URL and remove the comment markers.
+      <link rel="canonical" href="https://YOUR-PRODUCTION-DOMAIN/" />
+      <meta property="og:url" content="https://YOUR-PRODUCTION-DOMAIN/" />
+    -->
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DeepFocus" />
+    <meta property="og:locale" content="en_BD" />
+    <meta property="og:locale:alternate" content="bn_BD" />
+    <meta property="og:title" content="DeepFocus – Focus &amp; Study Productivity App in Bangladesh" />
+    <meta
+      property="og:description"
+      content="Discover DeepFocus, an Android focus and productivity app by Muhammed Omor for study sessions, habit tracking, and distraction management in Bangladesh."
+    />
+    <meta property="og:image" content="https://pockethostbd.github.io/drive-one/picture/mockup-1.png" />
+    <meta
+      property="og:image:alt"
+      content="DeepFocus Android Home screen showing active Focus Lock, Today's Focus, Daily Habit Hub, and Quick Access apps"
+    />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DeepFocus – Focus &amp; Study Productivity App in Bangladesh" />
+    <meta
+      name="twitter:description"
+      content="Discover DeepFocus, an Android focus and productivity app by Muhammed Omor for study sessions, habit tracking, and distraction management in Bangladesh."
+    />
+    <meta name="twitter:image" content="https://pockethostbd.github.io/drive-one/picture/mockup-1.png" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Schema.org Structured Data (Verified Facts Only) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "name": "DeepFocus",
+            "inLanguage": ["en", "bn"],
+            "description": "Official product website for DeepFocus, an Android focus and productivity application by Muhammed Omor for users in Bangladesh."
+          },
+          {
+            "@type": "Person",
+            "name": "Muhammed Omor"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "DeepFocus",
+            "applicationCategory": "ProductivityApplication",
+            "operatingSystem": "Android",
+            "description": "An Android productivity and focus application combining a minimalist home launcher, Custom Focus Lock timer, Allowed Apps whitelist, Daily Habit Tracker, and Focus Statistics.",
+            "author": {
+              "@type": "Person",
+              "name": "Muhammed Omor"
+            },
+            "screenshot": [
+              "https://pockethostbd.github.io/drive-one/picture/mockup-1.png",
+              "https://pockethostbd.github.io/drive-one/picture/mockup-2.png",
+              "https://pockethostbd.github.io/drive-one/picture/mockup-3.png",
+              "https://pockethostbd.github.io/drive-one/picture/mockup-4.png"
+            ],
+            "sameAs": [
+              "https://www.supportkori.com/muhammedomor/extras/deepfocus-app-ts3g"
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content" data-i18n="skip.content">Skip to main content</a>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand-wordmark">DeepFocus</a>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#top" class="nav-link" aria-current="page" data-i18n="nav.home">Home</a>
+          <a href="#features" class="nav-link" data-i18n="nav.features">Features</a>
+          <a href="#screenshots" class="nav-link" data-i18n="nav.screenshots">Screenshots</a>
+          <a href="#faq" class="nav-link" data-i18n="nav.faq">FAQ</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="lang-switch" role="group" aria-label="Language switcher">
+            <button type="button" class="lang-btn" data-lang-switch="en" aria-pressed="true">EN</button>
+            <button type="button" class="lang-btn" data-lang-switch="bn" aria-pressed="false">বাংলা</button>
+          </div>
+
+          <a
+            href="https://www.supportkori.com/muhammedomor/extras/deepfocus-app-ts3g"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary btn-sm header-cta"
+            data-i18n="nav.buy"
+          >Buy Now</a>
+
+          <button
+            type="button"
+            id="menu-toggle"
+            class="menu-toggle"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Open navigation menu"
+          >
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div id="mobile-menu" class="mobile-menu" hidden>
+        <ul class="mobile-nav-list">
+          <li><a href="#top" class="mobile-nav-link" aria-current="page" data-i18n="nav.home">Home</a></li>
+          <li><a href="features.html" class="mobile-nav-link" data-i18n="nav.features">Features</a></li>
+          <li><a href="#screenshots" class="mobile-nav-link" data-i18n="nav.screenshots">Screenshots</a></li>
+          <li><a href="faq.html" class="mobile-nav-link" data-i18n="nav.faq">FAQ</a></li>
+          <li><a href="privacy.html" class="mobile-nav-link" data-i18n="nav.privacy">Privacy</a></li>
+        </ul>
+        <a
+          href="https://www.supportkori.com/muhammedomor/extras/deepfocus-app-ts3g"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary"
+          data-i18n="hero.ctaPrimary"
+        >Get DeepFocus on SupportKori</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- B. Hero Section -->
+      <section id="top" class="hero">
+        <div class="container hero-grid">
+          <div>
+            <span class="hero-kicker" data-i18n="hero.kicker">Android Focus &amp; Productivity App · Built for Bangladesh</span>
+            <h1 class="hero-title" data-i18n="hero.title">Take Control of Your Focus. Build Better Habits.</h1>
+            <p class="hero-description" data-i18n="hero.desc">
+              Discover DeepFocus, an Android productivity app designed to help you create focused sessions, build better study habits, and manage distractions.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="https://www.supportkori.com/muhammedomor/extras/deepfocus-app-ts3g"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+                data-i18n="hero.ctaPrimary"
+              >Get DeepFocus on SupportKori</a>
+              <a href="#features" class="btn btn-secondary" data-i18n="hero.ctaSecondary">Explore Features</a>
+            </div>
+
+            <div class="hero-meta">
+              <span data-i18n="hero.metaDev">Developer: Muhammed Omor</span>
+              <span class="hero-meta-sep" aria-hidden="true">·</span>
+              <span data-i18n="hero.metaPlatform">Platform: Android</span>
+              <span class="hero-meta-sep" aria-hidden="true">·</span>
+              <span data-i18n="hero.metaChannel">Official Listing: SupportKori</span>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <button
+              type="button"
+              class="hero-screenshot-btn"
+              data-lightbox-index="0"
+              aria-label="Enlarge official DeepFocus Home screen screenshot"
+            >
+              <img
+                src="https://pockethostbd.github.io/drive-one/picture/mockup-1.png"
+                alt="DeepFocus Android Home screen showing active Focus Lock timer, Today's Focus card, Daily Habit Hub, Quick Access study apps, and bottom navigation bar"
+                width="1212"
+                height="1297"
+                fetchpriority="high"
+                referrerpolicy="no-referrer"
+              />
+              <span class="hero-screenshot-caption" data-i18n="hero.imgCaption">
+                Official Home screen: active Focus Lock, Quick Access apps, and Daily Habit Hub. Tap to enlarge.
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- C. Trust and Product Summary -->
+      <section id="summary" class="section section-soft">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow" data-i18n="summary.eyebrow">Product Overview</span>
+            <h2 class="section-title" data-i18n="summary.title">What DeepFocus Is and Who It Is Designed For</h2>
+            <p class="section-lead" data-i18n="summary.lead">
+              DeepFocus combines a minimalist Android home launcher with a custom Focus Lock, daily habit tracking, and focus session statistics to help you reduce phone distractions.
+            </p>
+          </div>
+
+          <div class="summary-grid">
+            <div class="definition-box">
+              <h3 class="definition-title" data-i18n="summary.defTitle">Clear Product Definition</h3>
+              <p class="definition-text" data-i18n="summary.defText">
+                DeepFocus helps Android users structure uninterrupted study or work periods by simplifying the home screen, locking app switching during timed focus sessions, keeping selected essential apps accessible, and recording focus history.
+              </p>
+              <p class="definition-note" data-i18n="summary.defNote">
+                Note: The groups below describe intended audiences for DeepFocus rather than verified user demographics or download statistics.
+              </p>
+            </div>
+
+            <ul class="audience-list">
+              <li class="audience-item">
+                <h3 class="audience-item-title" data-i18n="summary.aud1Title">Students in Bangladesh</h3>
+                <p class="audience-item-desc" data-i18n="summary.aud1Desc">School and college learners looking to minimize social media interruptions during study hours.</p>
+              </li>
+              <li class="audience-item">
+                <h3 class="audience-item-title" data-i18n="summary.aud2Title">University Admission Candidates</h3>
+                <p class="audience-item-desc" data-i18n="summary.aud2Desc">Applicants preparing for competitive exams who need structured daily focus blocks.</p>
+              </li>
+              <li class="audience-item">
+                <h3 class="audience-item-title" data-i18n="summary.aud3Title">University Students</h3>
+                <p class="audience-item-desc" data-i18n="summary.aud3Desc">Students managing coursework, thesis writing, and exam revision without constant phone checking.</p>
+              </li>
+              <li class="audience-item">
+                <h3 class="audience-item-title" data-i18n="summary.aud4Title">Professionals &amp; Freelancers</h3>
+                <p class="audience-item-desc" data-i18n="summary.aud4Desc">Remote workers, developers, and designers who need dedicated deep-work sessions.</p>
+              </li>
+              <li class="audience-item">
+                <h3 class="audience-item-title" data-i18n="summary.aud5Title">People Building Healthier Phone Habits</h3>
+                <p class="audience-item-desc" data-i18n="summary.aud5Desc">Anyone wanting calmer, more intentional smartphone routines instead of mindless scrolling.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- D. Feature Overview -->
+      <section id="features" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow" data-i18n="features.eyebrow">Verified Capabilities</span>
+            <h2 class="section-title" data-i18n="features.title">Core Features Shown in the Official App</h2>
+            <p class="section-lead" data-i18n="features.lead">
+              Every capability below is verified directly against the four official DeepFocus application screenshots.
+            </p>
+          </div>
+
+          <div class="features-grid">
+            <article class="feature-card feature-card--lock">
+              <div class="feature-meta">
+                <span data-i18n="features.f1Meta">01 · Focus Lock</span>
+                <span class="feature-tag" data-i18n="features.f1Tag">Focus Lock</span>
+              </div>
+              <h3 class="feature-title" data-i18n="features.f1Title">Custom Focus Lock</h3>
+              <p class="feature-desc" data-i18n="features.f1Desc">
+                When Focus Lock is active, in-app launcher exit and app switching controls remain locked until the session timer expires.
+              </p>
+              <p class="feature-benefit" data-i18n="features.f1Benefit">
+                Benefit: Adds helpful friction against impulsive app switching during deep work or study.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-meta">
+                <span data-i18n="features.f2Meta">02 · Session Timer</span>
+              </div>
+              <h3 class="feature-title" data-i18n="features.f2Title">Focus Session Timer</h3>
+              <p class="feature-desc" data-i18n="features.f2Desc">
+                Displays a circular countdown timer with remaining time and exact session end time for active deep-work blocks.
+              </p>
+              <p class="feature-benefit" data-i18n="features.f2Benefit">
+                Benefit: Keeps session progress visible at a glance without clutter.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-meta">
+                <span data-i18n="features.f3Meta">03 · Essential Access</span>
+              </div>
+              <h3 class="feature-title" data-i18n="features.f3Title">Allowed Apps During Focus</h3>
+              <p class="feature-desc" data-i18n="features.f3Desc">
+                Permits selected essential apps (for example, study or calling utilities) to stay usable while other apps remain locked.
+              </p>
+              <p class="feature-benefit" data-i18n="features.f3Benefit">
+                Benefit: Stay reachable for critical needs without opening distracting feeds.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-meta">
+                <span data-i18n="features.f4Meta">04 · Daily Routines</span>
+              </div>
+              <h3 class="feature-title" data-i18n="features.f4Title">Daily Habit Tracker</h3>
+              <p class="feature-desc" data-i18n="features.f4Desc">
+                Includes a dedicated Habits tab and Home screen summary card (Daily Habit Hub) to add and track daily disciplines.
+              </p>
+              <p class="feature-benefit" data-i18n="features.f4Benefit">
+                Benefit: Connects daily study or work habits with your focus routine.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-meta">
+                <span data-i18n="features.f5Meta">05 · Progress Review</span>
+              </div>
+              <h3 class="feature-title" data-i18n="features.f5Title">Focus Statistics &amp; Recent Sessions</h3>
+              <p class="feature-desc" data-i18n="features.f5Desc">
+                Tracks Total Focus Time, Sessions Completed, Today's Focus, active Focus Status, and a list of recent focus sessions.
+              </p>
+              <p class="feature-benefit" data-i18n="features.f5Benefit">
+                Benefit: Helps you review consistency over time using clear, simple metrics.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-meta">
+                <span data-i18n="features.f6Meta">06 · Home Launcher</span>
+              </div>
+              <h3 class="feature-title" data-i18n="features.f6Title">Quick Access &amp; App Drawer</h3>
+              <p class="feature-desc" data-i18n="features.f6Desc">
+                Provides a clean Home screen with Quick Access shortcuts to selected apps and a Drawer button when you need full app access.
+              </p>
+              <p class="feature-benefit" data-i18n="features.f6Benefit">
+                Benefit: Replaces busy icon grids with a calm workspace.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-meta">
+                <span data-i18n="features.f7Meta">07 · Launcher Control</span>
+              </div>
+              <h3 class="feature-title" data-i18n="features.f7Title">Launcher Configuration</h3>
+              <p class="feature-desc" data-i18n="features.f7Desc">
+                Lets you check default home app status and switch back to your previous launcher from Settings when no lock is active.
+              </p>
+              <p class="feature-benefit" data-i18n="features.f7Benefit">
+                Benefit: Easy reversibility whenever you want your standard launcher back.
+              </p>
+            </article>
+
+            <article class="feature-card feature-card--wide">
+              <div class="feature-meta">
+                <span data-i18n="features.f8Meta">08 · System Behavior</span>
+              </div>
+              <h3 class="feature-title" data-i18n="features.f8Title">Strict Settings Blocker &amp; Platform Architecture</h3>
+              <p class="feature-desc" data-i18n="features.f8Desc">
+                Blocks opening device Settings from the status bar during active focus while keeping Wi-Fi and Data quick toggles accessible, alongside an in-app Android Limitations guide.
+              </p>
+              <p class="feature-benefit" data-i18n="features.f8Benefit">
+                Benefit: Reduces mid-session tampering while keeping connectivity toggles usable.
+              </p>
+            </article>
+          </div>
+
+          <div class="limitations-callout">
+            <h3 class="limitations-title" data-i18n="features.limitTitle">Technical Scope &amp; Honest Limitations</h3>
+            <p class="limitations-text" data-i18n="features.limitText">
+              DeepFocus implements Focus Lock within standard Android framework security policies. Because Android versions and device manufacturers enforce strict OS boundaries, DeepFocus cannot guarantee blocking every possible bypass, surviving every device restart across all ROMs, or restricting every Android system menu.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- E. Official Screenshot Gallery -->
+      <section id="screenshots" class="section surface-dark">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow" data-i18n="screens.eyebrow">Official Application Screens</span>
+            <h2 class="section-title" data-i18n="screens.title">Explore the Real DeepFocus Interface</h2>
+            <p class="section-lead" data-i18n="screens.lead">
+              All four official screenshots are shown in their original aspect ratios without cropping. Select any screen to inspect it full-size.
+            </p>
+          </div>
+
+          <div class="screenshots-grid">
+            <article class="screenshot-card">
+              <button
+                type="button"
+                class="screenshot-trigger"
+                data-lightbox-index="0"
+                aria-label="Enlarge Screen 01: Home Screen and Quick Access"
+              >
+                <img
+                  src="https://pockethostbd.github.io/drive-one/picture/mockup-1.png"
+                  alt="DeepFocus Home screen showing clock, active Focus Lock card, Today's Focus, Daily Habit Hub, Quick Access icons, and Drawer button"
+                  width="1212"
+                  height="1297"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                />
+              </button>
+              <div class="screenshot-body">
+                <span class="screenshot-index" data-i18n="screens.s1Num">Screen 01 · Home</span>
+                <h3 class="screenshot-title" data-i18n="screens.s1Title">Home Screen &amp; Quick Access</h3>
+                <p class="screenshot-desc" data-i18n="screens.s1Desc">
+                  Shows the minimalist launcher clock, active Focus Lock status card, Today's Focus, Daily Habit Hub, Quick Access app shortcuts, and bottom navigation.
+                </p>
+                <button type="button" class="screenshot-enlarge" data-lightbox-index="0" data-i18n="screens.enlarge">Enlarge screen</button>
+              </div>
+            </article>
+
+            <article class="screenshot-card">
+              <button
+                type="button"
+                class="screenshot-trigger"
+                data-lightbox-index="1"
+                aria-label="Enlarge Screen 02: Custom Focus Lock Screen"
+              >
+                <img
+                  src="https://pockethostbd.github.io/drive-one/picture/mockup-2.png"
+                  alt="DeepFocus Custom Focus Lock screen with circular Deep Work countdown timer, end time, Allowed Apps During Focus card, and active protection notice"
+                  width="1122"
+                  height="1402"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                />
+              </button>
+              <div class="screenshot-body">
+                <span class="screenshot-index" data-i18n="screens.s2Num">Screen 02 · Focus Lock</span>
+                <h3 class="screenshot-title" data-i18n="screens.s2Title">Custom Focus Lock Screen</h3>
+                <p class="screenshot-desc" data-i18n="screens.s2Desc">
+                  Shows the Deep Work circular countdown timer, session end time, Allowed Apps During Focus count, and active protection status.
+                </p>
+                <button type="button" class="screenshot-enlarge" data-lightbox-index="1" data-i18n="screens.enlarge">Enlarge screen</button>
+              </div>
+            </article>
+
+            <article class="screenshot-card">
+              <button
+                type="button"
+                class="screenshot-trigger"
+                data-lightbox-index="2"
+                aria-label="Enlarge Screen 03: Habit Tracker and Focus Statistics"
+              >
+                <img
+                  src="https://pockethostbd.github.io/drive-one/picture/mockup-3.png"
+                  alt="DeepFocus Habit Tracker screen on the left and Focus Statistics screen on the right showing Total Focus Time, Sessions Completed, Today's Focus, Focus Status, and Recent Focus Sessions"
+                  width="1122"
+                  height="1402"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                />
+              </button>
+              <div class="screenshot-body">
+                <span class="screenshot-index" data-i18n="screens.s3Num">Screen 03 · Habits &amp; Stats</span>
+                <h3 class="screenshot-title" data-i18n="screens.s3Title">Habit Tracker &amp; Focus Statistics</h3>
+                <p class="screenshot-desc" data-i18n="screens.s3Desc">
+                  Side-by-side view of the Habits tab (add and track daily disciplines) and the Stats tab (Total Focus Time, Sessions Completed, Today's Focus, and Recent Sessions).
+                </p>
+                <button type="button" class="screenshot-enlarge" data-lightbox-index="2" data-i18n="screens.enlarge">Enlarge screen</button>
+              </div>
+            </article>
+
+            <article class="screenshot-card">
+              <button
+                type="button"
+                class="screenshot-trigger"
+                data-lightbox-index="3"
+                aria-label="Enlarge Screen 04: Settings and Android Platform Architecture"
+              >
+                <img
+                  src="https://pockethostbd.github.io/drive-one/picture/mockup-4.png"
+                  alt="DeepFocus Settings screen showing Launcher Configuration with Switch to Old Launcher button, Strict Settings Blocker, Android Platform Architecture, and About DeepFocus"
+                  width="1122"
+                  height="1402"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                />
+              </button>
+              <div class="screenshot-body">
+                <span class="screenshot-index" data-i18n="screens.s4Num">Screen 04 · Settings</span>
+                <h3 class="screenshot-title" data-i18n="screens.s4Title">Settings &amp; Android Architecture</h3>
+                <p class="screenshot-desc" data-i18n="screens.s4Desc">
+                  Shows Launcher Configuration (Switch to Old Launcher), Strict Settings Blocker, Android Platform Architecture (View Android Limitations), and About DeepFocus.
+                </p>
+                <button type="button" class="screenshot-enlarge" data-lightbox-index="3" data-i18n="screens.enlarge">Enlarge screen</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- F. How It Works -->
+      <section id="how-it-works" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow" data-i18n="how.eyebrow">Getting Started</span>
+            <h2 class="section-title" data-i18n="how.title">How to Evaluate and Acquire DeepFocus</h2>
+            <p class="section-lead" data-i18n="how.lead">
+              A straightforward process from reviewing verified app details to visiting the official SupportKori page.
+            </p>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step-card">
+              <span class="step-num" data-i18n="how.st1Num">Step 01</span>
+              <h3 class="step-title" data-i18n="how.st1Title">Understand the App</h3>
+              <p class="step-desc" data-i18n="how.st1Desc">
+                Review how the launcher, Focus Lock timer, allowed apps list, habits, and stats work together.
+              </p>
+            </article>
+
+            <article class="step-card">
+              <span class="step-num" data-i18n="how.st2Num">Step 02</span>
+              <h3 class="step-title" data-i18n="how.st2Title">Check Compatibility</h3>
+              <p class="step-desc" data-i18n="how.st2Desc">
+                Review the Android requirements, permissions, and platform limitations before acquiring.
+              </p>
+            </article>
+
+            <article class="step-card">
+              <span class="step-num" data-i18n="how.st3Num">Step 03</span>
+              <h3 class="step-title" data-i18n="how.st3Title">Open Official SupportKori Page</h3>
+              <p class="step-desc" data-i18n="how.st3Desc">
+                Visit the verified SupportKori product page to view current pricing, terms, and availability.
+              </p>
+            </article>
+
+            <article class="step-card">
+              <span class="step-num" data-i18n="how.st4Num">Step 04</span>
+              <h3 class="step-title" data-i18n="how.st4Title">Follow Official Setup Steps</h3>
+              <p class="step-desc" data-i18n="how.st4Desc">
+                Complete acquisition on SupportKori and follow the developer's provided installation instructions.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- G. Bangladesh-Focused Section -->
+      <section id="bangladesh" class="section section-soft">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow" data-i18n="bd.eyebrow">Built for Focus in Bangladesh</span>
+            <h2 class="section-title" data-i18n="bd.title">Practical Focus Support for Students &amp; Professionals in Bangladesh</h2>
+            <p class="section-lead" data-i18n="bd.lead">
+              Designed with real study and digital work workflows in Bangladesh in mind.
+            </p>
+          </div>
+
+          <div class="bd-grid">
+            <div class="bd-card">
+              <p data-i18n="bd.p1">
+                Across Bangladesh, students and professionals rely on Android smartphones for online classes, lecture PDFs, and communication—yet social feeds and short-form video apps sit on the same home screen.
+              </p>
+              <p style="margin-bottom: 0;" data-i18n="bd.p2">
+                Whether you are looking for a study focus app, a productivity app for students, or a focus app for Android in Bangladesh (পড়াশোনার ফোকাস অ্যাপ, মনোযোগ বাড়ানোর অ্যাপ, মোবাইলের বিভ্রান্তি নিয়ন্ত্রণ, এবং শিক্ষার্থীদের প্রোডাক্টিভিটি অ্যাপ), DeepFocus keeps essential study tools accessible while limiting distracting apps during active sessions.
+              </p>
+            </div>
+
+            <div class="bd-card">
+              <ul class="bd-list">
+                <li>
+                  <strong data-i18n="bd.item1Title">Study &amp; Admission Preparation</strong>
+                  <span data-i18n="bd.item1Desc">Keep educational and utility apps in Quick Access while locking distracting apps during study blocks.</span>
+                </li>
+                <li>
+                  <strong data-i18n="bd.item2Title">Essential Connectivity Preserved</strong>
+                  <span data-i18n="bd.item2Desc">Wi-Fi and mobile data quick toggles remain accessible even when Strict Settings Blocker is active.</span>
+                </li>
+                <li>
+                  <strong data-i18n="bd.item3Title">Lightweight Interface</strong>
+                  <span data-i18n="bd.item3Desc">A distraction-free layout without heavy feeds or unnecessary visual clutter on everyday Android devices.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- H. Compatibility and Requirements -->
+      <section id="compatibility" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow" data-i18n="compat.eyebrow">Compatibility &amp; Requirements</span>
+            <h2 class="section-title" data-i18n="compat.title">System Support, Permissions &amp; Items Requiring Confirmation</h2>
+            <p class="section-lead" data-i18n="compat.lead">
+              Verified facts are separated clearly from specifications that the product owner must confirm prior to final launch.
+            </p>
+          </div>
+
+          <div class="spec-table-wrap">
+            <table class="spec-table">
+              <tbody>
+                <tr>
+                  <th scope="row" data-i18n="compat.row1Key">Platform</th>
+                  <td data-i18n="compat.row1Val">Android (verified from official app screenshots and project documentation).</td>
+                </tr>
+                <tr>
+                  <th scope="row" data-i18n="compat.row2Key">Supported Android Versions</th>
+                  <td data-i18n="compat.row2Val">
+                    Requires confirmation from the developer (exact minimum and target Android OS versions should be verified on the SupportKori listing).
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" data-i18n="compat.row3Key">Required Permissions</th>
+                  <td data-i18n="compat.row3Val">
+                    Default Home Launcher configuration is shown in Screen 04. Exact special permissions (such as Usage Access, Display Over Other Apps, or Accessibility Service) require developer confirmation before publication.
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" data-i18n="compat.row4Key">Battery Optimization</th>
+                  <td data-i18n="compat.row4Val">
+                    Some Android OEMs may require disabling aggressive battery restrictions to keep timers reliable; device-specific setup guidance requires developer confirmation.
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" data-i18n="compat.row5Key">Known Limitations</th>
+                  <td data-i18n="compat.row5Val">
+                    Operates within standard Android framework security policies. Behavior may vary by device manufacturer, and uninterrupted lock across all bypass paths is not guaranteed.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- I. Privacy and Trust -->
+      <section id="privacy" class="section section-soft">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow" data-i18n="privacy.eyebrow">Privacy &amp; Trust</span>
+            <h2 class="section-title" data-i18n="privacy.title">Transparent Privacy Summary</h2>
+            <p class="section-lead" data-i18n="privacy.lead">
+              We avoid unverified claims like '100% secure' or 'zero data collection' unless technically audited and confirmed.
+            </p>
+          </div>
+
+          <div class="privacy-grid">
+            <article class="privacy-card">
+              <h3 data-i18n="privacy.c1Title">Local Storage &amp; Offline Use</h3>
+              <p data-i18n="privacy.c1Desc">
+                Habit entries and focus session logs appear stored on-device; exact local storage, encryption, and offline behavior must be verified by the developer before launch.
+              </p>
+            </article>
+
+            <article class="privacy-card">
+              <h3 data-i18n="privacy.c2Title">Network &amp; Third-Party Services</h3>
+              <p data-i18n="privacy.c2Desc">
+                Whether the app makes any network requests, analytics calls, or uses third-party SDKs requires final developer confirmation in the published Privacy Policy.
+              </p>
+            </article>
+
+            <article class="privacy-card">
+              <h3 data-i18n="privacy.c3Title">Permission Boundaries</h3>
+              <p data-i18n="privacy.c3Desc">
+                Permissions requested by the app should correspond strictly to launcher replacement, app blocking, and Strict Settings Blocker functionality.
+              </p>
+            </article>
+
+            <article class="privacy-card">
+              <h3 data-i18n="privacy.c4Title">No Independent Security Audit Claim</h3>
+              <p data-i18n="privacy.c4Desc">
+                This landing website provides product information and a clearly labeled draft privacy policy for review—not an independent security certification.
+              </p>
+            </article>
+          </div>
+
+          <div style="margin-top: 24px;">
+            <a href="privacy.html" class="btn btn-secondary" data-i18n="privacy.linkBtn">Read Draft Privacy Policy</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- J. FAQ Section -->
+      <section id="faq" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow" data-i18n="faq.eyebrow">Frequently Asked Questions</span>
+            <h2 class="section-title" data-i18n="faq.title">Clear, Honest Answers Before You Start</h2>
+            <p class="section-lead" data-i18n="faq.lead">
+              Direct answers based on verified app information. Items still awaiting product-owner confirmation are clearly marked.
+            </p>
+          </div>
+
+          <div class="faq-list">
+            <div class="faq-item">
+              <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-panel-1">
+                <span data-i18n="faq.q1">What is DeepFocus?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div id="faq-panel-1" class="faq-panel" hidden>
+                <p data-i18n="faq.a1">
+                  DeepFocus is an Android productivity and focus app developed by Muhammed Omor. It combines a minimalist home launcher, Custom Focus Lock timer, Allowed Apps whitelist, Habit Tracker, and Focus Statistics.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-panel-2">
+                <span data-i18n="faq.q2">Who should use DeepFocus?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div id="faq-panel-2" class="faq-panel" hidden>
+                <p data-i18n="faq.a2">
+                  It is intended for students in Bangladesh, university admission and job exam candidates, university students, professionals needing deep-work blocks, and anyone working to build healthier smartphone habits.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-panel-3">
+                <span data-i18n="faq.q3">Is DeepFocus available for Android?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div id="faq-panel-3" class="faq-panel" hidden>
+                <p data-i18n="faq.a3">
+                  Yes. DeepFocus is built for Android devices and is distributed via its official SupportKori product page.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-panel-4">
+                <span data-i18n="faq.q4">How does Focus Lock work?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div id="faq-panel-4" class="faq-panel" hidden>
+                <p data-i18n="faq.a4">
+                  When you start a Focus Lock session, the app locks in-app launcher exit and app-switching controls until the countdown timer finishes, operating within standard Android framework security policies.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-panel-5">
+                <span data-i18n="faq.q5">Can I use selected apps during a focus session?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div id="faq-panel-5" class="faq-panel" hidden>
+                <p data-i18n="faq.a5">
+                  Yes. As shown in the Custom Focus Lock screen, you can keep selected essential apps usable via Allowed Apps During Focus while other apps remain locked.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-panel-6">
+                <span data-i18n="faq.q6">Which Android versions are supported?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div id="faq-panel-6" class="faq-panel" hidden>
+                <p data-i18n="faq.a6">
+                  [Requires confirmation from the product owner before launch] Exact minimum and maximum supported Android OS versions are not yet specified here. Please check the official SupportKori listing or confirm with the developer.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-panel-7">
+                <span data-i18n="faq.q7">What permissions does the application require?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div id="faq-panel-7" class="faq-panel" hidden>
+                <p data-i18n="faq.a7">
+                  The Settings screen confirms default Home Launcher setup. Any additional special Android permissions (such as Usage Access, Overlay, or Accessibility) must be confirmed by the product owner before publication.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-panel-8">
+                <span data-i18n="faq.q8">How do I purchase DeepFocus?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div id="faq-panel-8" class="faq-panel" hidden>
+                <p data-i18n="faq.a8">
+                  Click 'Get DeepFocus on SupportKori' or 'Buy Now' to open the official SupportKori product page, where current pricing, access terms, and checkout options are listed.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-more">
+            <a href="faq.html" class="btn btn-secondary" data-i18n="faq.allLink">View full 12-question FAQ page</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- K. Final Conversion Section -->
+      <section class="cta-section surface-dark">
+        <div class="container">
+          <div class="cta-box">
+            <span class="eyebrow" data-i18n="cta.eyebrow">Ready When You Are</span>
+            <h2 class="cta-title" data-i18n="cta.title">Make Your Next Focus Session Count.</h2>
+            <p class="cta-desc" data-i18n="cta.desc">
+              Explore the screenshots, review Android compatibility, and visit the official SupportKori listing to get DeepFocus.
+            </p>
+            <a
+              href="https://www.supportkori.com/muhammedomor/extras/deepfocus-app-ts3g"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+              data-i18n="cta.button"
+            >Visit Official SupportKori Page</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- L. Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a href="index.html" class="footer-brand">DeepFocus</a>
+            <p class="footer-desc" data-i18n="footer.desc">
+              An Android productivity and focus app by Muhammed Omor, designed to support structured focus sessions and calmer digital habits.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="footer-heading" data-i18n="footer.navHeading">Site Navigation</h3>
+            <ul class="footer-links">
+              <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+              <li><a href="features.html" data-i18n="nav.features">Features</a></li>
+              <li><a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a></li>
+              <li><a href="faq.html" data-i18n="nav.faq">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer-heading" data-i18n="footer.infoHeading">Resources</h3>
+            <ul class="footer-links">
+              <li><a href="privacy.html" data-i18n="nav.privacy">Privacy</a></li>
+              <li>
+                <a
+                  href="https://www.supportkori.com/muhammedomor/extras/deepfocus-app-ts3g"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-i18n="cta.button"
+                >Visit Official SupportKori Page</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span data-i18n="footer.dev">Developed by Muhammed Omor</span>
+          <span>&copy; <span id="current-year">2026</span> DeepFocus · <span data-i18n="footer.rights">All rights reserved.</span></span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Screenshot Lightbox Modal -->
+    <div
+      id="screenshot-lightbox"
+      class="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lightbox-title"
+      hidden
+    >
+      <div class="lightbox-dialog">
+        <div class="lightbox-bar">
+          <h3 id="lightbox-title" class="lightbox-title">Screen Preview</h3>
+          <button type="button" id="lightbox-close" class="lightbox-close" data-i18n="modal.close">Close</button>
+        </div>
+        <div class="lightbox-media">
+          <img id="lightbox-img" src="" alt="" referrerpolicy="no-referrer" />
+        </div>
+        <div class="lightbox-footer">
+          <p id="lightbox-caption" style="margin: 0;"></p>
+          <div class="lightbox-nav">
+            <button type="button" id="lightbox-prev" class="btn btn-secondary btn-sm" data-i18n="modal.prev">Previous</button>
+            <button type="button" id="lightbox-next" class="btn btn-secondary btn-sm" data-i18n="modal.next">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
