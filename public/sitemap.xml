@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  POST-DEPLOYMENT ACTION REQUIRED:
-  Before submitting this sitemap to Google Search Console or Bing Webmaster Tools,
-  replace every instance of https://YOUR-PRODUCTION-DOMAIN with your actual live URL
-  (for example: https://username.github.io/deepfocus-landing or https://deepfocus.vercel.app).
-  Do NOT submit placeholder domains.
--->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://YOUR-PRODUCTION-DOMAIN/</loc>
+    <loc>https://deepfocus.asf.run/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://YOUR-PRODUCTION-DOMAIN/features.html</loc>
+    <loc>https://deepfocus.asf.run/features.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-PRODUCTION-DOMAIN/faq.html</loc>
+    <loc>https://deepfocus.asf.run/faq.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://YOUR-PRODUCTION-DOMAIN/privacy.html</loc>
+    <loc>https://deepfocus.asf.run/privacy.html</loc>
     <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://deepfocus.asf.run/terms.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
